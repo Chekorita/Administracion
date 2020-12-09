@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Sergio Bustamante De Jesus" />
+        <link rel="stylesheet" type="text/css" href="/CSS/estilos.css" media="screen" />
+        <title>Sergio Inc</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+    </head>
+    <body id="page-top">
+        <!-- Navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">El inicio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Comienza el reto</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Se complica la situacion</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Mejoras necesarias</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Ultimas mejoras</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Contenido de pagina-->
+        <div class="container-fluid p-0">
+            <!-- El inicio-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Empresa
+                        <span class="text-primary">Bustamante</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Contacto de empresa -
+                        <a href="mailto:sergio.bustamante162ver@gmail.com">sergio.bustamante162ver@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Empresa Bustamante ha sido un pequeño negocio de creacion de software de videojuegos, desde sus comienzos a finales del año 2001, sus oficinas han sido pequeñas con facil comunicacion entres sus divisiones, su red no ha tenido que realizar grandes mejoras, solo es una red local al que todos estan conectados</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Comienza el reto-->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Comienza el reto</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Durante este tiempo...</h3>
+                        <div>La empresa a crecido, se han contratado nuevos empleados, lo que llevo a conseguir un nuevo local, un local mas grande, se ha visto una mayor division de secciones entre las que destacan programacion, diseño, finanzas y administradores; esto ha hecho que la red en la que se conectan todos ya no da suficientes para los dispositivos que se necesitan conectar a la vez de que el control que se tiene sobre las consultas a internet se han salido de las manos de los administradores</div>
+                        <p>Se necesitaban nuevas opciones, mejoras ¿Qué hicieron para resolverlo?</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Agosto 2007</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Solución</h3>
+                        <div class="subheading mb-3">Se implemento un control DHCP y Proxy</div>
+                        <p>El gran dilema durante el crecimiento fue ¿Cómo podriamos tener mayor control de ip´s y control de la internet? Bueno, un administrador sugirio que podriamos crear sub-redes donde la op´s fueran proporcionadas automaticamente y asi fue, para la seccion de diseños recibian la sub-red 192.168.0.0 con sub-mascara 255.255.255.192, para la programacion recibian la sub-red 192.168.0.64 con sub-mascara 255.255.255.192, para la seccion de finanzas se le dio la sub-red 192.168.0.128 con sub-mascara 255.255.255.192, y para uso general del resto de empleados al no tener tantos numeros usaran la sub-red 192.168.0.192 con sub-mascara 255.255.255.192; estas ip´s eran asignadas de manera dimamica gracias a que el mismo administrador monto con una computadora con el hardware necesario mas 5 tarjetas de red con los cuales se conectaran a las 4 subredes y una a la red de internet y realizo un servidor DHCP para cada seccion, pero ahora ¿Cómo controlaban el acceso al internet? Bueno este problema fue gracias al conjunto de los administradores, hablando con el jefe, montaron un servidor Proxy que les proveia internet a las redes y prohibieron el acceso a webs pornograficas y de juegos gracias a la realizacion de un archivo ACL donde se especificaban dichos sitios, asi, los empleados tenian su ip establecida, acceso a internet y se perdia el temor de que los empleados pudieran hacer otras cosas que no fueran para el trabajo.</p>
+                        <img src="/img/1.png" alt="" width="90%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Se complica la situación-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Se complica la situación</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Ha pasado tiempo...</h3>
+                        <div>La empresa a crecido mas, ganado fama en el mundo de los videojuegos, se ha conseguido un nuevos equipos y mejorado donde se tenian monstados los servidores</div>
+                        <p>Con la gran cantidad de nuevo equipo, impresoras y maquinas, se han dado cuenta que se necesita un poco mas de control, sobre todo al momento de mantener el control de impresion de docuemntos de cada area, ya que no existia orden alguno y al ser tanto algunos se perdian y surgian problemas entre el personal por la prioridad de sus papeles, al igual de que se necesitaba un lugar donde poder almacenar y compartir recursos ya que se volvia molesto tener que ir a un lado con una usb para dar sus avances a sus compañeros ¿Qué hicieron para resolverlo?</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Noviembre 2013</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Solución</h3>
+                        <div class="subheading mb-3">Se implemento un control de impresoras y un servidor en Ubunto Samba y FTP</div>
+                        <p>El problema de las impresoras ya era algo elevado, los administradores en una lluvia de ideas decidieron implementar un servidor de impresoras, conectaron todas las impresoras de cada zona en el servidor y los configuraron para servir a sus respectivas zonas, durante dos dias, configuraron los clientes para atender al servidor y conectar con la impresora, esto dio un mejor control al momento de impresion de cada zona, esto dio una mejor condicion de las impresiones que necesitaban los empleados, ahora, se ha presentado el problema de compartir sus recursos en cada seccion y con los de otras secciones, un administrador nuevo que habia presentado un problema similar en su antiguo empleo, sugirio y se hizo real la implementacion de Samba en cada seccion, creando asi un grupo de trabajo donde las maquinas de cada seccion tenian su propio grupo y con ello podian compartir y extraer recursos de sus compañeros, para compartirlo entre secciones decidieron crear un servidor FTP con el cual todos estando conectados por medio de una ip principal podian subir y descargar archivos que ellos necesitaran ya sea subir para otra seccion como por ejemplo diseños que necesitaban los programadores, o los de finanzas debian compartir con el presupuesto al jefe.</p>
+                        <img src="/img/2.png" alt="" width="90%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Mejoras necesarias-->
+        <section class="resume-section" id="interests">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Mejoras necesarias</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Llegados a cierto punto...</h3>
+                        <div>Seguimos trabajando con la calidad de siempre, no han existido problemas pero por los pasilos ha existido una inconformidad, los empleados estan cansados de acceder por medio de ip a su pagina creada para el FTP, por cuestiones de comodidad, tener que escribir ip en vez de una url como suelen hacerlo para otras web les ha dado cierto descontento, el jefe para lograr mantener felices a sus empleado, ha hablado con sus administradores, para quedar en una solucion que pueda hacer felices a sus empleados ¿Qué se a propuesto?</div>
+                        <p></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Junio 2018</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Solución</h3>
+                        <div class="subheading mb-3">Se implemento un servidor DNS y web</div>
+                        <p>"El gran problema es que como personas vemos mas facil poner nombres, que numeros" dijo un administrador que con empeño sugirio realizar un servidor DNS local, pero otro complementando menciono que para mejor movilidad se hiciera un web local, donde puedan desplazarse a los distintos servicios web que necesiten como por ejemplo el FTP, platicando con los programadores y diseñadores realizaron una pagina web donde pudieran unir los servicios existentes y se conectaran con una cuenta aparte de su ip, y fuera facil de expandir si se agregaban mas servicios, mientras la pagina era creada los administradores configuraron el servidor Apache y un dns con el cual pudieran acceder ahora los empleados, el dominio siendo www.bustamante-corporation.com, con esta url, les seria mas facil acceder y con la pagina ya subida al servidor Apache los empelados podrian moverse mejor.</p>
+                        <img src="/img/3.PNG" alt="" width="90%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Ultimas mejoras-->
+        <section class="resume-section" id="awards">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Ultimas mejoras</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Este año...</h3>
+                        <div>Con la presente contingencia sanitaria, aun estando con poco peligro se han implementado nuevas medidas de distanciamiento dentro del edificio, por ello la comunicacion ha sido complicada entre las secciones, los administradores, en un intento para poder dar una posible solucion que mejorara esta situacion dieron una propuesta ¿Cual fue?</div>
+                        <p></p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Diciembre 2020</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Solución</h3>
+                        <div class="subheading mb-3">Se implemento un servidor de correo</div>
+                        <p>Como algo provicional tomando en cuenta la comunicacion que fuera necesaria como informes o reportes con superiores o con equipos de otra seccion, los administardores propusieron crear un servidor de correo electronico, con ayuda de outlook express donde se conectarian los empelados, usaron el dominio como referencia, creando asi los correos *@bustamante-corporation.com donde podian mandarse correo de manera local y despejar sus otros correos personales para cosas de mayor importancia.</p>
+                        <img src="/img/4.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>        
+    </body>
+</html>
